@@ -6,18 +6,27 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Disqord" Version="1.0.0-08082021-99" />
-      <PackageReference Include="Disqord.Bot" Version="1.0.0-08082021-99" />
+      <PackageReference Include="Disqord" Version="1.0.0-08212021-111" />
+      <PackageReference Include="Disqord.Bot" Version="1.0.0-06012021-32" />
+      <PackageReference Include="Disqord.Core" Version="1.0.0-08212021-111" />
+      <PackageReference Include="Disqord.Extensions.Slash" Version="1.0.0-08212021-111" />
+      <PackageReference Include="Disqord.Extensions.Voice" Version="1.0.0-08212021-111" />
+      <PackageReference Include="Disqord.Gateway" Version="1.0.0-08212021-111" />
+      <PackageReference Include="Disqord.Gateway.Api" Version="1.0.0-08212021-111" />
+      <PackageReference Include="Disqord.Rest" Version="1.0.0-08212021-111" />
+      <PackageReference Include="Disqord.Rest.Api" Version="1.0.0-08212021-111" />
+      <PackageReference Include="Disqord.Voice" Version="1.0.0-08212021-111" />
+      <PackageReference Include="Disqord.Voice.Api" Version="1.0.0-08212021-111" />
       <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0-preview.3.21201.4" />
       <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0-preview.3.21201.4" />
       <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0-preview.3.21201.4" />
       <PackageReference Include="NetMQ" Version="4.0.1.7-pre" />
-      <PackageReference Include="pythonnet_netstandard_py37_win" Version="2.5.1.1" />
+      <PackageReference Include="pythonnet_netstandard_py37_win" Version="2.5.2" />
       <PackageReference Include="Serilog" Version="2.10.1-dev-01285" />
       <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.2-dev-10284" />
-      <PackageReference Include="Serilog.Sinks.Console" Version="4.0.0-dev-00839" />
-      <PackageReference Include="Serilog.Sinks.File" Version="5.0.0-dev-00909" />
-      <PackageReference Include="TensorFlow.NET" Version="0.20.1" />
+      <PackageReference Include="Serilog.Sinks.Console" Version="4.0.0" />
+      <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+      <PackageReference Include="TensorFlow.NET" Version="0.60.2" />
     </ItemGroup>
 
     <ItemGroup>
