@@ -53,7 +53,7 @@ namespace JazzMock
                 })
                 .ConfigureDiscordBotSharder((context, bot) =>
                 {
-                    bot.Token = context.Configuration["TOKEN"];
+                    bot.Token = context.Configuration["jazzmocktoken"];
                     bot.UseMentionPrefix = true;
                     bot.Intents += GatewayIntent.DirectMessages;
                     bot.Prefixes = new[] { "joe", "swanson" };
